@@ -74,7 +74,7 @@ function draw() {
   
   // We can't make any more
   if (count < 1) {
-    background(random(0,50), 100, 60, 50)
+    background(random(0,50), 100, 60, 70)
     for (let j = 0; j < circles.length; j++){
       circles.splice([j], circles.length);
     }
