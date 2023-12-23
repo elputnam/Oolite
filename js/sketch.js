@@ -74,14 +74,15 @@ function draw() {
   
   // We can't make any more
   if (count < 1) {
+    background(random(0,50), 100, 60, 50)
     for (let j = 0; j < circles.length; j++){
       circles.splice([j], circles.length);
     }
     //noLoop();
-    textAlign(CENTER);
-    textSize(random(50,100));
-    fill(255);
-    stroke(0);
+    // textAlign(CENTER);
+    // textSize(random(50,100));
+    // fill(255);
+    // stroke(0);
     // for (let i = 0; i < 50; i++){
     //   text("DONE", random(width), random(height));
     // }
