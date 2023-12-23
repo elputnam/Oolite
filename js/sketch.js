@@ -1,4 +1,5 @@
-//Based on code by Dan Shiffman: https://codepen.io/shiffman/pres/rjBaLp/top/
+//Experimenting with circle packing algorithms to create a geological animation
+// Uses code by Dan Shiffman: https://codepen.io/shiffman/pres/rjBaLp/top/
 
 // All the circles
 var circles = [];
@@ -147,19 +148,19 @@ show = function() {
   }
 }
 
-function mousePressed(){
-  background(random(310, 340), 100, 10);
-  colour1 = color(0);
-  colour2 = color(0);
-  textAlign(CENTER);
-    textSize(50);
-    fill(255);
-    stroke(0);
-    for (let i = 0; i < 50; i++){
-      text("NO.", random(width), random(height));
-    }
-     for (let j = 0; j < circles.length; j++){
-      circles.splice([j], circles.length);
-    }
-}
+// function mousePressed(){
+//   background(random(310, 340), 100, 10);
+//   colour1 = color(0);
+//   colour2 = color(0);
+//   textAlign(CENTER);
+//     textSize(50);
+//     fill(255);
+//     stroke(0);
+//     for (let i = 0; i < 50; i++){
+//       text("NO.", random(width), random(height));
+//     }
+//      for (let j = 0; j < circles.length; j++){
+//       circles.splice([j], circles.length);
+//     }
+// }
 
